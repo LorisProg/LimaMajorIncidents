@@ -1,0 +1,94 @@
+body {
+	background-image: url("img/bg.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title {
+	text-align: center;
+}
+
+/*
+.btn-ajouter {
+	font-size: 1.3em;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 1px solid black;
+	background-color: rgba(180,180,180,0.9);
+	border-radius: 3px;
+	padding: 2px;
+}
+
+
+.btn-ajouter:hover {
+	cursor: pointer;
+}
+*/
+
+
+.newIncident {
+	display: none;
+}
+
+/*
+.btn-new {
+	background-color: rgba(180,180,180,0.9);
+	border-radius: 3px;
+	padding: 2px;
+}
+*/
+
+/* affiche les Tabs de navigation en ligne */
+.navTabs li {
+	display: inline-block;
+}
+
+.navTabs {
+	position: relative;
+}
+
+.goRight {
+	position: absolute;
+	right: 0;
+}
+
+.incident.current {
+	background-color: rgba(180,180,180,0.9);
+}
+
+.incident {
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.9);
+}
+
+ul {
+	list-style-type: none;
+}
+
+.incident-description {
+	display: none;
+}
+
+.incident-date {
+	width: 15%;
+}
+
+.incident-date, .incident-main {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.incident-title {
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+/*
+* {
+	border: 1px solid black;
+	padding: 3px;
+}
+*/

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Gestion des Incidents Majeurs et Maintenance</title>
+
+	<!-- Style CSS -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="title">
+		<h1>
+			Gestion des Incidents Majeurs et Maintenance
+		</h1>
+	</div>
+
+	<div class="nav">
+		<ul class="navTabs">
+			<li>Currently</li>
+			<li>Coming</li>
+			<li class="goRight">Archives</li>
+		</ul>
+	</div>
+
+	<!-- A reutiliser pour javascipt quand la page sera sympa
+
+	<ul class="incidents">
+	</ul>
+-->
+
+	<button class="btn-ajouter">
+		+ Nouveau
+	</button>
+
+	<div class="newIncident">
+		Starting Date :
+		<textarea class="dateFrom">dd/mm/yy</textarea>
+		Ending Date :
+		<textarea class="dateTo">dd/mm/yy</textarea>
+		Title :
+		<textarea class="incidentTitle">Write title here</textarea>
+		Description :
+		<textarea class="incidentDescription">Write description here</textarea>
+		<button class="btn-new">Valider</button>
+	</div>
+
+	<ul class="incidents-list">
+		<li class="incident current">
+			<div class="incident-date">
+				From : 30/04/2015<br>
+				To : 02/05/2015
+			</div>
+			<div class="incident-main">
+				<div class="incident-title">
+					Outlook ne marchera pas aujourd'hui
+				</div>
+				<div class="incident-description">
+					Maintenance, cloturez les tickets en Information
+				</div>
+			</div>
+		</li>
+
+		<li class="incident">
+			<div class="incident-date">
+				From : 30/04/2015<br>
+				To : 02/05/2015
+			</div>
+			<div class="incident-main">
+				<div class="incident-title">
+					Les carottes sont cuites le site est pas mals !
+				</div>
+				<div class="incident-description">
+					Super maintenant on formatte un peu le texte.
+				</div>
+			</div>
+		</li>
+	</ul>
+
+	<!-- Script JS -->
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+
+
+</html>
