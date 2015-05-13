@@ -68,9 +68,11 @@ ul {
 	list-style-type: none;
 }
 
+/*
 .incident-description {
 	display: none;
 }
+*/
 
 .incident-date {
 	width: 15%;
