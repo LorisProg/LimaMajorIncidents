@@ -10,38 +10,10 @@ body {
 	text-align: center;
 }
 
-/*
-.btn-ajouter {
-	font-size: 1.3em;
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	border: 1px solid black;
-	background-color: rgba(180,180,180,0.9);
-	border-radius: 3px;
-	padding: 2px;
-}
-
-
-.btn-ajouter:hover {
-	cursor: pointer;
-}
-*/
-
-
 .newIncident {
 	display: none;
 }
 
-/*
-.btn-new {
-	background-color: rgba(180,180,180,0.9);
-	border-radius: 3px;
-	padding: 2px;
-}
-*/
-
-/* affiche les Tabs de navigation en ligne */
 .navTabs li {
 	display: inline-block;
 }
@@ -89,12 +61,10 @@ ul {
 }
 */
 
-/*
+
 .btn-supprimer {
 	position: absolute;
-	right: 50px;
+	right: 15px;
 	margin-top: 5px;
-	padding: 2px;
 	background-color: pink;
 }
-*/
